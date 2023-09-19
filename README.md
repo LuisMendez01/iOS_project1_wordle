@@ -1,46 +1,41 @@
-# Wordle Pt. 1 Starter
-
-This is the starter project for iOS 101 Project 1 - Wordle Pt. 1
-
-# Project 1 - *Name of App Here*
+# Project 1 - *Wordle Pt. 1 Starter*
 
 Submitted by: **Your Name Here**
 
-**Name of your app** is an app that ... [TODO] 
+This is the starter project for iOS 101 Project 1 - Wordle Pt. 1
+**WORDLE** a description of this project -> In your first project, you will complete a partially finished version of the popular game Wordle. If you need to become more familiar with the game, please play at least one round to understand how Wordle works. In each round, you will be given a secret word to guess and a limited number of chances to do so. With each guess, you'll receive clues that indicate which letters are included in the word and where they're located. You aim to use these clues to guess the secret word before running out of attempts.
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] App displays a keyboard on the screen
-- [ ] When tapping on the keyboard, a letter is shown or deleted (letter selected)
-- [ ] User can play a basic version of Wordle, with different goal words each time
+- [x] App displays a keyboard on the screen
+- [x] When tapping on the keyboard, a letter is shown or deleted (letter selected)
+- [x] User can play a basic version of Wordle, with different goal words each time
 
 The following **optional** features are implemented:
 
-- [ ] Improve and customize the user interface by adding a launchscreen and app icon
-- [ ] Run the app on a device rather than in the simulator
+- [x] Improve and customize the user interface by adding a launchscreen and app icon
+- [x] Run the app on a device rather than in the simulator
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] I set an alert when user keeps typing after guessing the correct word. I basically implemented a boolean variable to make true once all letters of words were correct, then I created a closure to call this variable and check if word was guessed when user entered a letter. Alert pops saying "Word has been guessed". I could've added animation to keyboard when entering letters for visibility of input through the video but I have to move on to my other projects. This was a good project nonetheless to be the first one.
 
 ## Video Walkthrough
 
-Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
-
-[Guide]](https://www.youtube.com/watch?v=GA92eKlYio4) .
-
+<img src='/iOS_project1_result1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='/iOS_project1_result2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Working with closures instead of delegates was a bit different for sure but exciting.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [Luis Mendez]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
