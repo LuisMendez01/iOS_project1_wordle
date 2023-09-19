@@ -26,8 +26,8 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-<img src='/iOS_project1_result1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-<img src='/iOS_project1_result2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='/iOS_project1_result1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' float="left" width="300" height="450"/>
+<img src='/iOS_project1_result2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' float="left" width="300" height="450"/>
 
 ## Notes
 
