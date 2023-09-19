@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-<div style="display: inline-block;">
+<div style="display: inline-block; margin: auto;">
     <img src='/iOS_project1_result1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' width="300" height="450"/>
     <img src='/iOS_project1_result2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' width="300" height="450"/>
 </div>
